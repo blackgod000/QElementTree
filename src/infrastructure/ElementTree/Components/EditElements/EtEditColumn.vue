@@ -8,7 +8,7 @@
       <q-expansion-item
         class="bg-grey-3"
         expand-separator
-        icon="create"
+        icon="view_carousel"
         label="Layout"
         default-opened
         dense

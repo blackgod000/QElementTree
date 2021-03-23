@@ -2,7 +2,7 @@
   <q-list bordered>
     <q-expansion-item
       class="bg-grey-3"
-      icon="grid_view"
+      icon="view_quilt"
       label="Layout"
       expand-separator
       default-opened

@@ -2,7 +2,12 @@
   <div class="q-gutter-md">
     <component :is="component" />
     <div v-if="!isSelectedElementRoot" class="full-width row justify-center">
-      <q-btn label="Delete" icon="delete" color="red" @click="deleteElement" />
+      <q-btn
+        label="Delete"
+        icon="delete_forever"
+        color="red"
+        @click="deleteElement"
+      />
     </div>
   </div>
 </template>

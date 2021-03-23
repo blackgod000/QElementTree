@@ -7,36 +7,35 @@
     <q-list bordered>
       <q-expansion-item
         class="bg-grey-3"
-        icon="grid_view"
+        icon="settings"
         label="General"
         expand-separator
         default-opened
         dense
       >
         <div class="q-pa-sm bg-white">
-          <div class="q-gutter-sm"></div>
+          <div class="q-gutter-sm">
+            <q-input
+              label="Field"
+              debounce="100"
+              dense
+              clearable
+              :value="field"
+              @input="changeField"
+            />
+          </div>
         </div>
       </q-expansion-item>
       <q-expansion-item
         class="bg-grey-3"
         expand-separator
-        icon="create"
+        icon="view_carousel"
         label="Layout"
         dense
       >
         <div class="q-pa-sm bg-white">
           <et-edit-layout />
         </div>
-      </q-expansion-item>
-      <q-expansion-item
-        class="bg-grey-3"
-        expand-separator
-        icon="create"
-        label="Style"
-        default-opened
-        dense
-      >
-        <div class="q-pa-sm bg-white"></div>
       </q-expansion-item>
     </q-list>
   </div>
@@ -50,11 +49,15 @@ import EtEditInputsGeneral from './Common/EtEditInputsGeneral.vue';
 import EtEditInputsStyle from './Common/EtEditInputsStyle.vue';
 
 import { EtEditElementMixin } from './Common/EtEditElementMixin';
+import { EtEditValueElementMixin } from './Common/EtEditValueElementMixin';
 
 @Component({
   components: { EtEditLayout, EtEditInputsGeneral, EtEditInputsStyle }
 })
-export default class EtEditEditor extends Mixins(EtEditElementMixin) {}
+export default class EtEditEditor extends Mixins(
+  EtEditElementMixin,
+  EtEditValueElementMixin
+) {}
 </script>
 
 <style scoped></style>

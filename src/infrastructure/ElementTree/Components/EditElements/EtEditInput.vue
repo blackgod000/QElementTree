@@ -7,7 +7,7 @@
     <q-list bordered>
       <q-expansion-item
         class="bg-grey-3"
-        icon="grid_view"
+        icon="settings"
         label="General"
         expand-separator
         default-opened
@@ -51,7 +51,7 @@
       <q-expansion-item
         class="bg-grey-3"
         expand-separator
-        icon="create"
+        icon="view_carousel"
         label="Layout"
         dense
       >
@@ -62,7 +62,7 @@
       <q-expansion-item
         class="bg-grey-3"
         expand-separator
-        icon="create"
+        icon="format_color_fill"
         label="Style"
         default-opened
         dense

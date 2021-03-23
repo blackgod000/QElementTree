@@ -1,8 +1,6 @@
 <template>
   <drag :key="type" :data="type" @cut="copy">
-    <q-chip clickable dense square :icon="icon">
-      {{ label }}
-    </q-chip>
+    <q-chip clickable dense square :label="label" :icon="icon" />
   </drag>
 </template>
 

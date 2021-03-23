@@ -4,18 +4,17 @@ import { IEtAddElementsModel } from '../Models/EtAddElementsModel';
 export function createAddElements(): IEtAddElementsModel {
   return <IEtAddElementsModel>{
     layout: [
-      { type: ElementType.Row, label: 'Row', icon: 'row' },
-      { type: ElementType.Column, label: 'Column', icon: 'column' }
+      { type: ElementType.Row, label: 'Row', icon: 'view_stream' },
+      { type: ElementType.Column, label: 'Column', icon: 'view_column' }
     ],
     inputs: [
-      { type: ElementType.Input, label: 'Input', icon: 'input' },
-      { type: ElementType.Select, label: 'Select', icon: 'select' },
-
-      { type: ElementType.Editor, label: 'Editor', icon: 'editor' },
-      { type: ElementType.DateTime, label: 'Date Time', icon: 'date' }
+      { type: ElementType.Input, label: 'Input', icon: 'create' },
+      { type: ElementType.Select, label: 'Select', icon: 'list' },
+      { type: ElementType.DateTime, label: 'Date Time', icon: 'date_range' },
+      { type: ElementType.Editor, label: 'Editor', icon: 'library_books' }
     ],
     statics: [
-      { type: ElementType.Paragraph, label: 'Paragraph', icon: 'paragraph' }
+      { type: ElementType.Paragraph, label: 'Paragraph', icon: 'text_format' }
     ]
   };
 }
