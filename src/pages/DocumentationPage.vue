@@ -1,5 +1,10 @@
 <template>
   <q-page class="doc-page">
+    <div class="text-right">
+      <a href="https://github.com/blackgod000/QElementTree" target="_blank"
+        >QElementTree GitHub</a
+      >
+    </div>
     <h1 class="doc-heading doc-h1">Element Tree</h1>
     <p>
       The QElementTree component is ...
