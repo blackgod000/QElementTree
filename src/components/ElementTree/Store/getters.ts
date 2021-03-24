@@ -11,9 +11,6 @@ export const getters: GetterTree<ElementBuilderState, unknown> = {
   rootElementId(state) {
     return state.rootElementId;
   },
-  getElements(state) {
-    return state.elements;
-  },
   getOutputElements(state) {
     return Object.values(state.normalizedElements);
   },

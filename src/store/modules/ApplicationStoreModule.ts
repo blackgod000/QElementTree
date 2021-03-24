@@ -77,7 +77,7 @@ function getExampleElements(): any[] {
         flexSize: 1,
         type: 'text-box',
         text:
-          'Text box example\n  All elements can be dragged and dropped in specific containers defined with dashed border.\n  To add new elements simply drag the chosen element from the add element tab and drop it in a container element.\n  To select an element hold the mouse down for 600 ms over the chosen element.\n',
+          'Text box example\n  All elements can be dragged and dropped in specific containers defined with a dashed border.\n  To add a new element simply drag the chosen element from the add element tab and drop it inside the container element.\n  To select an element hold down the mouse button for 600 ms over the chosen element.\n',
         heading: 'text-body2',
         alignment: 'text-left',
         bold: false,
@@ -229,7 +229,7 @@ function getExampleElements(): any[] {
       attributes: {
         flexSize: 1
       },
-      field: '7cbecce3-5253-4026-8870-b33755e43891',
+      field: 'description',
       type: 'editor'
     },
     {

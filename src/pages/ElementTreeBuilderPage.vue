@@ -13,7 +13,7 @@ import { Vue, Component } from 'vue-property-decorator';
 
 import { ApplicationStore } from 'src/store/modules/ApplicationStoreModule';
 
-import QElementTreeBuilder from 'src/infrastructure/ElementTree/QElementTreeBuilder.vue';
+import QElementTreeBuilder from 'components/ElementTree/QElementTreeBuilder.vue';
 
 @Component({
   components: { QElementTreeBuilder }
@@ -28,6 +28,7 @@ export default class ElementTreeBuilderPage extends Vue {
   }
 
   save(elements: any[]) {
+    console.log(elements);
     ApplicationStore.saveElements(elements);
   }
 }

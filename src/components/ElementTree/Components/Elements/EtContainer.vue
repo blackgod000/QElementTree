@@ -50,7 +50,7 @@ import {
   IDragRemovePayload,
   IDropInsertPayload,
   IDropReorderPayload
-} from 'src/infrastructure/ElementTree/Store/types';
+} from '../../Store/types';
 import { EtContainerElementModel } from '../../Models/EtElementModel';
 
 @Component({

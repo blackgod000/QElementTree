@@ -9,7 +9,7 @@
       dense
     >
       <div class="q-pa-sm bg-white">
-        <div>
+        <div class="row justify-start items-center">
           <et-add-element
             v-for="addElement in addElements.layout"
             :key="addElement.type"
@@ -29,7 +29,7 @@
       dense
     >
       <div class="q-pa-sm bg-white">
-        <div>
+        <div class="row justify-start items-center">
           <et-add-element
             v-for="addElement in addElements.inputs"
             :key="addElement.type"
@@ -49,7 +49,7 @@
       dense
     >
       <div class="q-pa-sm bg-white">
-        <div>
+        <div class="row justify-start items-center">
           <et-add-element
             v-for="addElement in addElements.statics"
             :key="addElement.type"

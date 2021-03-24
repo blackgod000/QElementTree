@@ -1,8 +1,8 @@
 import { Component, Mixins } from 'vue-property-decorator';
 
-import { EtValueElementModel } from 'src/infrastructure/ElementTree/Models/EtElementModel';
+import { EtValueElementModel } from 'src/components/ElementTree/Models/EtElementModel';
 import { EtElementMixin } from './EtElementMixin';
-import { IFieldValue } from 'src/infrastructure/ElementTree/Store/types';
+import { IFieldValue } from '../../../Store/types';
 
 @Component
 export class EtElementValueMixin extends Mixins(EtElementMixin) {

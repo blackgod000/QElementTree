@@ -18,7 +18,7 @@ import { Component, Mixins } from 'vue-property-decorator';
 
 import { EtElementMixin } from './Elements/Common/EtElementMixin';
 
-import { createElementComponent } from 'src/infrastructure/ElementTree/Factories/ElementComponentFactory';
+import { createElementComponent } from '../Factories/ElementComponentFactory';
 
 @Component
 export default class EtElement extends Mixins(EtElementMixin) {

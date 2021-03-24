@@ -25,9 +25,9 @@ export const mutations: MutationTree<ElementBuilderState> = {
     state.rootElementId = rootElementId;
   },
   SaveElements(state, elements: IEtElementModel[]) {
-    state.elements = elements;
+    const copiedElements: any[] = JSON.parse(JSON.stringify(elements));
 
-    state.normalizedElements = elements.reduce<any>(
+    state.normalizedElements = copiedElements.reduce<any>(
       (normalizedElements, arrayElement) => {
         const element = createElementModel(arrayElement);
 
