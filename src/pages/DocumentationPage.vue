@@ -1,7 +1,7 @@
 <template>
   <q-page class="doc-page">
     <div class="text-right">
-      <a href="https://github.com/blackgod000/QElementTree" target="_blank"
+      <a href="https://github.com/wranarobert/QElementTree" target="_blank"
         >QElementTree GitHub</a
       >
     </div>

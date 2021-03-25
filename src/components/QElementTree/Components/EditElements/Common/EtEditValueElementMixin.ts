@@ -1,8 +1,8 @@
 import { Vue, Component, Inject } from 'vue-property-decorator';
 
-import DynamicNamespacedStore from 'src/components/ElementTree/Store/NamespacedStore/Service/DynamicNamespacedStore';
-import { EtValueElementModel } from 'src/components/ElementTree/Models/EtElementModel';
-import { IPropertyValue } from 'src/components/ElementTree/Store/types';
+import DynamicNamespacedStore from '../../../Store/NamespacedStore/Service/DynamicNamespacedStore';
+import { EtValueElementModel } from '../../../Models/EtElementModel';
+import { IPropertyValue } from '../../../Store/types';
 
 @Component
 export class EtEditValueElementMixin extends Vue {

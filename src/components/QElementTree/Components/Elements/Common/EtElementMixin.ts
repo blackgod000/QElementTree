@@ -1,7 +1,7 @@
 import { Vue, Component, Inject, Prop } from 'vue-property-decorator';
 
-import DynamicNamespacedStore from 'src/components/ElementTree/Store/NamespacedStore/Service/DynamicNamespacedStore';
-import { EtElementModel } from 'src/components/ElementTree/Models/EtElementModel';
+import DynamicNamespacedStore from '../../../Store/NamespacedStore/Service/DynamicNamespacedStore';
+import { EtElementModel } from '../../../Models/EtElementModel';
 
 @Component
 export class EtElementMixin extends Vue {

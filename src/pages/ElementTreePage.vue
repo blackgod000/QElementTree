@@ -22,7 +22,7 @@ import { Vue, Component } from 'vue-property-decorator';
 
 import { ApplicationStore } from 'src/store/modules/ApplicationStoreModule';
 
-import QElementTree from 'components/ElementTree/QElementTree.vue';
+import QElementTree from 'components/QElementTree/QElementTree.vue';
 
 @Component({
   components: { QElementTree }

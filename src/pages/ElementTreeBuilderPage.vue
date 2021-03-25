@@ -13,7 +13,7 @@ import { Vue, Component } from 'vue-property-decorator';
 
 import { ApplicationStore } from 'src/store/modules/ApplicationStoreModule';
 
-import QElementTreeBuilder from 'components/ElementTree/QElementTreeBuilder.vue';
+import QElementTreeBuilder from 'components/QElementTree/QElementTreeBuilder.vue';
 
 @Component({
   components: { QElementTreeBuilder }
